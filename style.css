@@ -1,0 +1,46 @@
+body {
+  background: #eaeaea;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  padding: 1rem;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(180, 180, 180);
+  margin: 1rem auto;
+}
+
+.heading h6 {
+  font-size: smaller;
+  color: #585858;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 260px;
+}
+
+.content .info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content .info ul li {
+  margin-bottom: .5rem;
+}
+
+.form .form-control{
+  box-shadow: 0 0 5px #bbbbbb;
+}
